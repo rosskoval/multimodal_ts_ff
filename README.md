@@ -14,8 +14,6 @@ We source raw company filings (10Ks) from the Notre Dame Software Repository for
 
 We collect the monthly macroeconomic indices from the ST. Louis FED (https://fred.stlouisfed.org/).
 
-We source stock price data from FactSet Prices \& Returns.
-
 We thank FactSet and AJOVista for their permission to release this data to the academic community. 
 
 We merge all data across modalities to align with the quarterly fiscal period end dates for each company. Therefore, for each Earnings Surprise forecast quarter date (e.g. Q2 2020), we select data that was available within 5 business days of the end of the previous quarter fiscal end date, including all financial variables, quarterly financial reports, earnings conference calls, and macroeconomic data. Although some of this data is available at a higher frequency than once a quarter, such as stock price-based financial variables or monthly economic indicators, we only select the values of such data that were available as of 5 business days after the last fiscal period end date. Thus, our predictions are always made 3 months in advance of the earnings report date. We leave it to future work to explore the value in updating the predictions at a higher frequency.
