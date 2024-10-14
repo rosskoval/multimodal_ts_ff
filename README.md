@@ -10,7 +10,7 @@ This repository will contain the data and code used in the EMNLP 2024 paper. We 
 
 We source Reported Earnings per Share (EPS) and Analyst Consensus Estimates of EPS from FactSet Fundamentals (https://go.factset.com/marketplace/catalog/product/factset-fundamentals) and Consensus Estimates (https://go.factset.com/marketplace/catalog/product/factset-estimates-consensus), respectively, to compute the Earnings Surprise target variable. We collect English conference calls from FactSet Document Distributor (https://go.factset.com/marketplace/catalog/product/factset-document-distributor-xml-transcripts).
 
-We source raw company filings (10Ks) from the Notre Dame Software Repository for Accounting and Finance (https://sraf.nd.edu/sec-edgar-data/). We apply extensive preprocessing to extract Section 7A: Management Discussion and Analysis (MDA). We use a variety of regular expressions to extract the MDA section and filter the resulting section text for quality in a refined iterative process. Please see Appendix A in our publication for further details on the data curation process. 
+We source raw company filings (10Ks) from the Notre Dame Software Repository for Accounting and Finance (https://sraf.nd.edu/sec-edgar-data/). We apply extensive preprocessing to extract Section 7A: Management Discussion and Analysis (MDA). We use a variety of regular expressions to extract the MDA section and filter the resulting section text for quality in a refined iterative process.
 
 We collect the monthly macroeconomic indices from the ST. Louis FED (https://fred.stlouisfed.org/).
 
